@@ -1,0 +1,25 @@
+.gallery{
+    background-color: rgba(246, 246, 246, 1);
+    max-width: 1240px;
+    margin: 30px 100px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+@media  (max-width: 768px) {
+    .gallery{
+        flex-direction: column;
+        margin: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        min-width: 300px;
+        background-color: #fff;
+        gap: 20px;
+    }
+}

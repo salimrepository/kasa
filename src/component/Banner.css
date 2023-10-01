@@ -1,0 +1,47 @@
+.banner{
+    position: relative;
+    max-width: 1240px;
+    margin: 30px 100px;
+}
+
+.banner img{
+    display: flex;
+    height: 223px;
+    width: 100%;
+    border-radius: 25px;
+    filter : brightness(0.8);
+}
+
+.banner h1 {
+    display: flex;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    font-size: 48px;
+}
+
+@media (max-width: 768px){
+    .banner img{
+        height: 111px;
+        border-radius: 10px;
+        justify-content: flex-start;
+    }
+
+    .banner__title h1{
+        font-size: 24px;
+        padding-left: 20px;
+        top: 20px;
+        left: 2px;
+        width: 60%;
+    }
+
+    .banner span{
+        display: block;
+    }
+
+    .banner{
+        margin: 0px 20px;
+    }
+}
