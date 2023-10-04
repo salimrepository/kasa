@@ -1,0 +1,51 @@
+.error main{
+    color: #ff6060;
+    text-align: center;
+}
+
+h1{
+    font-size: 288px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 50px 50px 100px 50px;
+}
+
+.error__link{
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 96px;
+        margin-bottom: 70px;
+    }
+
+    .error__text{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 18px;
+        margin: 50px;
+    }
+
+    span{
+        display: block;
+    }
+
+    .error__title{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .error__link{
+        margin-bottom: 100px;
+    }
+}

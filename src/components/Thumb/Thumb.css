@@ -1,0 +1,45 @@
+.thumb{
+    display: flex;
+    align-items: flex-end;
+    background-image: linear-gradient(to top, #863600, #ff6060);
+    min-width: 340px;
+    height: 340px;
+    border-radius: 25px;
+    margin: 0;
+}
+
+.thumb__title{
+    color: white;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 15%;
+}
+
+.thumb img{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+figcaption{
+    position: absolute;
+}
+
+@media  (max-width: 768px) {
+    .thumb{
+        min-width: 300px;
+    }
+
+    .thumb img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+
+    .thumb__title{
+        width: 50%;
+    }
+}

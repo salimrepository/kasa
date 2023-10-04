@@ -1,6 +1,6 @@
 .gallery{
     background-color: rgba(246, 246, 246, 1);
-    max-width: 1240px;
+    /* max-width: 1240px; */
     margin: 30px 100px;
     padding: 40px;
     box-sizing: border-box;
@@ -9,6 +9,7 @@
     justify-content: center;
     gap: 45px;
     flex-wrap: wrap;
+    list-style: none;
 }
 
 @media  (max-width: 768px) {
