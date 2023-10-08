@@ -1,28 +1,70 @@
 .collapse{
-    max-width: 1023px;
-    background-color:rgba(255, 96, 96, 1);
-    height: 52px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    margin: 31px 208px 0 208px;
+    background-color: rgba(255, 96, 96, 1);
     border-radius: 5px;
-    margin: 0 208px 30px 208px ;
-    margin-bottom: 30px;
+    padding: 7px 0;
 }
 
-.collapse p{
+.collapse__title{
     font-size: 24px;
     color: #fff;
-    margin: 0;
-    padding-left: 20px;
+    border-radius: 5px;
+    margin: 0 20px 0px 20px ;
+
 }
+
+.collapse__text p{
+    max-width: 1023px;
+    background-color: rgba(246, 246, 246, 1);
+    padding: 15px 15px 15px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 96, 96, 1);
+    margin: -2px 208px 0px 208px;
+    position: relative;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.collapse__text {
+    max-height: 0px;
+    overflow: hidden;
+    transition:   0.2s ease-in-out;
+}
+
 
 .collapse img{
     margin-right: 20px;
 }
 
+.dropdown {
+    max-height: 1000px;
+}
+
+.rotate-up {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.rotate-down {
+    transform: rotate(180deg);
+    transition: transform 0.6s ease;
+}
+
+.rotate-down:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 768px){
     .collapse{
-        margin: 40px 20px;
+        margin: 31px 20px 0 20px;
+    }
+
+    .collapse__text p{
+        margin: 0 20px 0 20px;
     }
 }

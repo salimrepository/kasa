@@ -1,8 +1,6 @@
 .footer{
     margin-top: 30px;
-    padding-top: px;
     background-color: rgba(0, 0, 0, 1);
-    /* max-width: 1440px; */
     height: 219px;
     display: flex;
     flex-direction: column;
@@ -33,6 +31,6 @@
     }
 
     .footer{
-        margin-top: 0px;
+        margin-top: 30px;
     }
 }

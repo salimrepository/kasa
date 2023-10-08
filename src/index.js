@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Error from './pages/Error';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './pages/About';
+import Accommodations from './pages/Accommodations';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,8 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: '/apartment/:id',
-    element: <div>Apartment</div>
+    path: '/Accommodations',
+    element: <Accommodations/>
   },
   {
     path: '/404',

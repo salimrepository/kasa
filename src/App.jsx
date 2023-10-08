@@ -6,10 +6,11 @@ import Gallery from './components/Gallery/Gallery.jsx';
 import Footer from './components/Footer/Footer.jsx';
 
 function App() {
+    const ImageSource = "IMG-banner.png";
   return (
     <div className="App">
       <Navbar />
-      <Banner/>
+      <Banner img={ImageSource} title={true}/>
       <Gallery/>
       <Footer/>
     </div>
