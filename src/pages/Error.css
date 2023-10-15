@@ -21,6 +21,11 @@ p{
     text-decoration: none;
 }
 
+.error__link a{
+    color: #ff6060;
+    cursor: pointer;
+}
+
 @media (max-width: 768px){
     h1{
         font-size: 96px;

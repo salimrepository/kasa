@@ -11,15 +11,12 @@ import Accommodations from './pages/Accommodations';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />
+    element: <App />,
+    errorElement: <Error/>
   },
   {
     path: '/Accommodations',
     element: <Accommodations/>
-  },
-  {
-    path: '/404',
-    element: <Error/>
   },
   {
     path: '/A-propos',

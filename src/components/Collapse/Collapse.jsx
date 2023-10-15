@@ -12,11 +12,9 @@ function Collapse({ description, lorem }) {
     const arrowClass = isCollapsed ? "rotate-down" : "rotate-up";
 
     return (
-        <div>
+        <div className="collapse__container">
             <div className={collapseClass}>
-                <div>
-                    <p className="collapse__title">{description}</p>
-                </div>
+                <p className="collapse__title">{description}</p>
             <div>
             <img
                 src="arrow-down.png"
@@ -26,8 +24,8 @@ function Collapse({ description, lorem }) {
             </div>
             </div>
             <div className={textClass}>
-            <p >{lorem}</p>
-        </div>
+                <p >{lorem}</p>
+            </div>
         
         
         

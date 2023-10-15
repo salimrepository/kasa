@@ -1,14 +1,23 @@
 .gallery{
     background-color: rgba(246, 246, 246, 1);
     margin: 30px 100px;
-    padding: 40px;
+    padding: 45px;
     box-sizing: border-box;
     border-radius: 25px;
     display: flex;
-    justify-content: center;
     gap: 45px;
     flex-wrap: wrap;
     list-style: none;
+}
+
+.gallery li{
+    width: calc((100% - 90px) / 3);
+}
+
+@media  (max-width: 1200px) {
+    .gallery li{
+        width: calc((100% - 45px) / 2);
+    }
 }
 
 @media  (max-width: 768px) {
@@ -19,5 +28,9 @@
         min-width: 300px;
         background-color: #fff;
         gap: 20px;
+    }
+
+    .gallery li{
+        width: 100%;
     }
 }

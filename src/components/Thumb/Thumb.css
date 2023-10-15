@@ -2,8 +2,7 @@
     display: flex;
     align-items: flex-end;
     background-image: linear-gradient(to top, #863600, #ff6060);
-    min-width: 340px;
-    height: 340px;
+    height: 350px;
     border-radius: 25px;
     margin: 0;
 }
@@ -17,8 +16,8 @@
 }
 
 .thumb img{
-    width: 340px;
-    height: 340px;
+    
+    height: 350px;
     object-fit: cover;
     border-radius: 25px;
 }

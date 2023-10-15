@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Gallery.css";
 import Thumb from "../Thumb/Thumb";
+import { Link } from 'react-router-dom';
 
 function Gallery() {
   const [logements, setLogements] = useState([]);
@@ -17,9 +18,10 @@ function Gallery() {
     <ul className="gallery">
       {logements.map((logement, index) => (
         <li key={index}>
-          <a href="">
+          <Link to={`/Accommodations`}>
             <Thumb data={logement} />
-          </a>
+          </Link>
+          
         </li>
       ))}
     </ul>

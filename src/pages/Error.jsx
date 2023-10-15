@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar/Navbar.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 import './Error.css';
-
+import { Link } from 'react-router-dom';
 
 function Error() {
     return (
@@ -15,7 +15,8 @@ function Error() {
                 </div>
 
                 <div className='error__link'>
-                    <a href="#">Retourner sur la page d'accueil</a>
+                    <Link to={'/'}>Retourner sur la page d'accueil</Link>
+                    
                 </div>
                 
             </main>
