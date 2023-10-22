@@ -17,7 +17,7 @@ function Collapse({ description, lorem }) {
                 <p className="collapse__title">{description}</p>
             <div>
             <img
-                src="arrow-down.png"
+                src="../arrow-down.png"
                 alt="arrow"
                 onClick={toggleCollapse}
                 className={arrowClass}/>

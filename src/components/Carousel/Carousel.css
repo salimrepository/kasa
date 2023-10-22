@@ -51,6 +51,21 @@
     margin-top: 20px;
 }
 
+.carousel__arrows img{
+    height: 119px;
+    width: 96px;
+    background-color: black;
+}
+
+.carousel__arrows{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    gap: 1048px;
+    top: 150px;
+}
+
 /* .collapse{
     margin: 0;
     width: 582px;

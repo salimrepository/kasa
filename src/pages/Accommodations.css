@@ -1,5 +1,15 @@
-.collapse__containerd{
-    display: flex;
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    padding: 0;
+    max-width: 1440px;
     
+  }
+ 
+  .appartment__title{
+    margin: 30px 100px;
 }
 
+.tag{
+    margin: 30px 100px;
+}
